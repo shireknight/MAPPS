@@ -1,0 +1,859 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #b7202f; color: #fff; text-shadow: none; }
+::selection { background: #b7202f; color: #fff; text-shadow: none; }
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+/* ===== Initializr Styles =====================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body{ font: 16px/26px "Myriad Web Pro", "Myriad Pro", myriad, arial; }
+
+.wrapper{
+	width:90%;
+	margin:0 5%;
+}
+
+
+
+#title{ color:white; }
+
+::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
+::selection      { background: #f16529; color: #fff; text-shadow: none; }
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+#main{
+	padding:30px 0;
+}
+
+#main article h1{
+	font-size:2em;
+}
+
+#main aside{
+	color:white;
+	padding:0px 5% 10px;
+}
+
+.mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.25;
+}
+
+#what-is-a-mapp{
+  z-index: 100;
+  width: 250px;
+  height: 250px;
+}
+
+
+
+#footer-container footer{
+	color:white;
+	padding:20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 #title{ padding-top:20px; }
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+	
+
+		
+	
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+	nav ul li{
+		display:inline;
+	}	
+	.oldie nav a{
+		margin:0 0.7%;		
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+	
+
+/* ============
+    WIDE: Menu
+   ============ */
+	
+	#title{
+	
+	}
+
+	nav{
+		
+	}
+
+/* ============
+    WIDE: Main
+   ============ */
+
+	#main article{
+		float:left;
+		width:57%;
+	}
+		
+	#main aside{
+		float:right;
+		width:28%;
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+	.wrapper{
+		width:1026px; /* 1140px - 10% for margins */
+		margin:0 auto;
+	}
+}
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+/* =============================================================================
+  Home Page   
+  ========================================================================== */
+  
+  body#home #header-container
+  {
+  	background:#b7202f;
+  	border-bottom: 26px solid #eea420;
+
+  }
+   body#home #header-container img {
+width: 100%;
+   }
+  
+  body#home nav a{
+  	display:block;
+  	
+ 
+  	color:#fff;
+  	text-align:center;
+  	text-decoration:none;
+  	font-weight:bold;
+  	border-radius: 10px;
+  	float:left;
+  }
+  
+  body#home nav a:hover, 
+  body#home nav a:visited{
+  	color:white;text-decoration: none;
+  }
+  
+  	
+  	body#home nav li:first-child a{ 
+  	height: 110px;
+  	width: 195px;
+  	padding:40px 0 0 35px;
+  	margin-right:15px;
+  	margin-bottom: 15px;
+  	background: -moz-linear-gradient(top,  #3ac43e 0%, #29942d 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ac43e), color-stop(100%,#29942d)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* IE10+ */
+  	background: linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ac43e', endColorstr='#29942d',GradientType=0 ); /* IE6-9 */
+  		}
+  	
+  	body#home nav li:first-child a:hover{
+  		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ac43e), color-stop(60%,#29942d)); /* Chrome,Safari4+ */
+  	}
+  	
+  		
+  		body#home nav li:first-child a i {
+  			font-size: 5.5em !important;
+  			margin: 15px 10px 0 0;
+  		}
+  		
+  		
+  	body#home nav li:nth-child(2) a{
+  	height: 110px;
+  	width: 230px;
+  	padding:40px 0 0 20px;
+  	margin-right:15px;
+  	margin-bottom: 15px;
+  	background: #f4a064; /* Old browsers */
+  	background: -moz-linear-gradient(top,  #f4a064 0%, #ea7725 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4a064), color-stop(100%,#ea7725)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* IE10+ */
+  	background: linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a064', endColorstr='#ea7725',GradientType=0 ); /* IE6-9 */
+  		
+  	}
+  	
+  	body#home nav li:nth-child(2) a:hover {
+  		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4a064), color-stop(50%,#ea7725)); /* Chrome,Safari4+ */
+  	}
+  	body#home nav li:nth-child(2) a i {
+  		font-size: 4.5em !important;
+  		margin: 20px 5px 0 0;
+  	}
+  	
+  	body#home nav li:nth-child(3) a{
+  	height: 65px;
+  	width: 185px;
+  	padding:15px 10px 0 15px;
+  	margin-bottom: 15px;
+  	margin-right: 15px;
+  	background: #ca7cab; /* Old browsers */
+  	background: -moz-linear-gradient(top,  #ca7cab 0%, #7b325e 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ca7cab), color-stop(100%,#7b325e)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* IE10+ */
+  	background: linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca7cab', endColorstr='#7b325e',GradientType=0 ); /* IE6-9 */
+  
+  	
+  	}
+  		body#home nav li:nth-child(3) a:hover {
+  			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ca7cab), color-stop(50%,#7b325e)); /* Chrome,Safari4+ */
+  		}
+  	body#home nav li:nth-child(3) a i {
+  		font-size: 4em !important;
+  		margin: 10px 10px 0;
+  	}
+  	
+  	 body#home nav li:nth-child(3) a span {
+  	 margin: 0;
+  	 }
+  		body#home nav li:last-child  a{ 
+  	height: 40px;
+  	width: 175px;
+  	padding:15px 15px 0 20px; 
+  	background: #91b6db; /* Old browsers */
+  	background: -moz-linear-gradient(top,  #91b6db 0%, #34699f 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b6db), color-stop(100%,#34699f)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* IE10+ */
+  	background: linear-gradient(top,  #91b6db 0%,#34699f 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91b6db', endColorstr='#34699f',GradientType=0 ); /* IE6-9 */
+  	 }
+  	 body#home nav li:last-child  a:hover{
+  	 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b6db), color-stop(50%,#34699f)); /* Chrome,Safari4+ */
+  	 }
+  	 body#home nav li:last-child a i {
+  	 	font-size: 2.5em !important;
+  	 	margin: 0 10px 0 12px;
+  	 	
+  	 }
+  	 
+  	 
+  	body#home nav ul li a i {
+  			font-size: 4em;
+  			width: auto;
+  			height: auto;
+  			float: left;
+        margin-top: -5px !important;
+  			margin-right: 10px;
+  		}
+  		
+  		body#home nav ul li:first-child span,
+  		body#home nav ul li:nth-child(2) span {
+  			font-size: 2em;
+  		}
+  		
+  	body#home nav ul li a span {
+  			float: left;
+  			text-align: left;
+  			font-size: 1.5em;
+  			line-height: 1em;
+			  font-weight: bold;
+		  }
+  	body#home nav ul {
+  	float: left;
+  		margin: 15px;
+  	}	
+/* =============================================================================
+  Make a Mapp
+   ========================================================================== */
+   body#make_a_mapp article section#icons{
+   	padding: 10px 20px;
+   }
+   
+   body#make_a_mapp article section#icons ul li , body#make_a_mapp article nav#container ul li{
+   width: 95px;
+   height: 95px;
+   vertical-align: middle;
+   text-align: center;
+   	list-style: none;
+   	display: inline-block;
+   	border: 3px solid #000;
+   	-webkit-border-radius: 14px;
+   	border-radius: 14px;
+   	padding: 5px;
+   	margin: 5px;
+   }
+   
+   body#make_a_mapp article section#icons ul li img, body#make_a_mapp article nav#container ul li img{
+   	width: 95%;
+   	height: 95%;
+   }
+   
+    body#make_a_mapp article section ul li:hover, body#make_a_mapp article nav#container ul li:hover {
+    	border-color: #b7202f!important;
+    }
+	
+	body#make_a_mapp div#header-container {
+
+	height: 50px;
+		background: #3ac43e; /* Old browsers */
+		background: -moz-linear-gradient(top,  #3ac43e 0%, #29942d 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ac43e), color-stop(100%,#29942d)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* IE10+ */
+		background: linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ac43e', endColorstr='#29942d',GradientType=0 ); /* IE6-9 */
+		
+	}
+	
+	body#make_a_mapp article nav#container{
+    overflow-y: hidden;
+		white-space: nowrap;
+		margin: 10px;
+		border: 1px solid #808080;
+		padding: 10px 20px;
+		width: 93%;
+		min-height: 120px;
+		max-height: 130px;
+	}
+
+  body#make_a_mapp article nav#container ul{
+    overflow-x: visible;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: auto;
+    max-height: 120px;
+    height: 120px;
+    overflow-y: hidden;
+  }
+	
+	body#make_a_mapp article section ul{
+	width: 768px;
+   	margin: 0;
+   	padding: 0;
+   }
+   
+   body#make_a_mapp article nav ul{
+		
+   }
+   
+   
+   body#make_a_mapp h1#title {
+   	text-align: center;
+   	font-size: 1.5em;
+   	margin: 6px auto 10px auto;
+
+   }
+   
+   body#make_a_mapp h1#title a#back{
+		display: block;
+		float: left;
+		height: 28px;
+		width: 27px;
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+		color: #FFFFFF;
+   }
+   	
+   
+   body#make_a_mapp h1#title span#title-text i {
+   	font-size: 1.5em;
+   	vertical-align: middle;
+   	margin-right: 15px;
+   }
+   
+   
+  body#make_a_mapp span#back,
+  body#follow_a_mapp span#back,
+  body#mapp_viewer span#back  {
+  border: none;
+  background: transparent;
+  float: left;
+   font-weight: bold;
+   width: auto;
+   height: auto;
+}
+
+body#make_a_mapp span#back i,
+  body#follow_a_mapp span#back i,
+  body#mapp_viewer span#back i{
+	width: 30px;
+	height: 30px;
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 35px;
+ }
+ 
+body#make_a_mapp span#text-on-off, body#mapp_viewer span#text-on-off{
+	display: block;
+	float: right;
+	border: 3px solid #fff;
+}
+
+body#make_a_mapp span#text-on-off a, body#mapp_viewer span#text-on-off a{
+	padding: 5px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+   body#make_a_mapp span#back:hover,
+  body#follow_a_mapp span#back:hover,
+  body#mapp_viewer span#back:hover{
+  color: #000;
+  }
+  
+   body#mapp_viewer button#home_page {
+   color: #fff;
+   background: #82aee6; /* Old browsers */
+   background: -moz-linear-gradient(top,  #82aee6 0%, #336599 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82aee6), color-stop(100%,#336599)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  #82aee6 0%,#336599 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  #82aee6 0%,#336599 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  #82aee6 0%,#336599 100%); /* IE10+ */
+   background: linear-gradient(top,  #82aee6 0%,#336599 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82aee6', endColorstr='#336599',GradientType=0 ); /* IE6-9 */
+   font-size: .6em;
+   padding: 5px;
+    float: right;
+    border:  1px solid #333;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	font-weight: bold;
+}
+    
+    body#make_a_mapp button#save:hover,
+   body#mapp_viewer button#home_page:hover {
+   color: #336599;
+   	background: #f5f5f5;
+   }
+   
+   body#make_a_mapp button#back a,
+   body#follow_a_mapp button#back a,  
+   body#make_a_mapp button#save a,
+   body#mapp_viewer button#home_page a,
+   body#mapp_viewer button#back a {
+   	color: inherit;
+   	text-decoration: none;
+   	padding: 5px 10px;
+  
+   }
+   
+    
+   body#make_a_mapp div h2 {
+   	background: #eea420;
+   	height: 25px;
+   	padding: 5px 0;
+ 	margin: 0;
+   	font-size: 1em;
+   	text-align: center;
+   }
+   
+   /* =============================================================================
+     Follow a Mapp
+      ========================================================================== */
+        	body#follow_a_mapp div#header-container {
+   
+   	height: 50px;
+   		background: #ca7cab; /* Old browsers */
+   		background: -moz-linear-gradient(top,  #ca7cab 0%, #7b325e 100%); /* FF3.6+ */
+   		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ca7cab), color-stop(100%,#7b325e)); /* Chrome,Safari4+ */
+   		background: -webkit-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* Chrome10+,Safari5.1+ */
+   		background: -o-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* Opera 11.10+ */
+   		background: -ms-linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* IE10+ */
+   		background: linear-gradient(top,  #ca7cab 0%,#7b325e 100%); /* W3C */
+   		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca7cab', endColorstr='#7b325e',GradientType=0 ); /* IE6-9 */
+   		
+   		
+   	}
+   	
+        
+      body#follow_a_mapp h1#title {
+      	text-align: center;
+      	font-size: 1.5em;
+      	margin: 10px auto;
+   
+      }
+      
+      body#follow_a_mapp h1#title i {
+      	font-size: 1.5em;
+      	vertical-align: middle;
+      	margin-right: 15px;
+      }
+
+            
+      body#follow_a_mapp div h2 {
+      	background: #eea420;
+      	height: 25px;
+      	padding: 5px 0;
+    	margin: 0;
+      	font-size: 1em;
+      	text-align: center;
+      }
+      
+      body#follow_a_mapp article section#buttons ul{
+      	margin: 0;
+      	padding: 0;
+      }
+      
+      body#follow_a_mapp article section#buttons ul li {
+      	width: 95%;
+      	display: inline-block;
+      	border: .15em solid #ada8a8;
+      	-webkit-border-radius: 20px;
+      	border-radius: 20px;
+      	padding: 15px;
+      	margin: 10px;
+      }
+      
+      
+      /* ------------- */
+      body#follow_a_mapp article section#buttons ul li:first-child{ 
+      background: #ef283b; /* Old browsers */
+      background: -moz-linear-gradient(top,  #ef283b 0%, #ba1f2e 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef283b), color-stop(100%,#ba1f2e)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #ef283b 0%,#ba1f2e 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #ef283b 0%,#ba1f2e 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #ef283b 0%,#ba1f2e 100%); /* IE10+ */
+      background: linear-gradient(top,  #ef283b 0%,#ba1f2e 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef283b', endColorstr='#ba1f2e',GradientType=0 ); /* IE6-9 */
+      
+            	}
+      	
+      	
+      body#follow_a_mapp article section#buttons ul li:nth-child(2){
+           background: #91b6db; /* Old browsers */
+           background: -moz-linear-gradient(top,  #91b6db 0%, #34699f 100%); /* FF3.6+ */
+           background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b6db), color-stop(100%,#34699f)); /* Chrome,Safari4+ */
+           background: -webkit-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Chrome10+,Safari5.1+ */
+           background: -o-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Opera 11.10+ */
+           background: -ms-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* IE10+ */
+           background: linear-gradient(top,  #91b6db 0%,#34699f 100%); /* W3C */
+           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91b6db', endColorstr='#34699f',GradientType=0 ); /* IE6-9 */ 	
+      }
+      
+      body#follow_a_mapp article section#buttons ul li:nth-child(3){
+            background: #f4a064; /* Old browsers */
+            background: -moz-linear-gradient(top,  #f4a064 0%, #ea7725 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4a064), color-stop(100%,#ea7725)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* IE10+ */
+            background: linear-gradient(top,  #f4a064 0%,#ea7725 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4a064', endColorstr='#ea7725',GradientType=0 ); /* IE6-9 */
+      
+      }
+      	
+      
+      body#follow_a_mapp article section#buttons ul li:last-child { 
+      
+      background: -moz-linear-gradient(top,  #3ac43e 0%, #29942d 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3ac43e), color-stop(100%,#29942d)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* IE10+ */
+      background: linear-gradient(top,  #3ac43e 0%,#29942d 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ac43e', endColorstr='#29942d',GradientType=0 ); /* IE6-9 */
+      
+      }
+      
+      
+      /* -------------- */
+	  
+	 body#follow_a_mapp article section#buttons ul li a img {
+	  	width: 60px;
+	  	height: 60px;
+	  	
+	  	text-align: center;
+	  		list-style: none;
+	  		display: inline-block;
+	  		border: 3px solid #000;
+	  		-webkit-border-radius: 14px;
+	  		border-radius: 14px;
+	  		padding: 5px;
+	  	margin:0px 20px 0 0;
+	  		background: #fff;
+	  }
+	  
+	  body#follow_a_mapp article section#buttons ul li a{
+	  	text-decoration: none;
+	  	color: #fff;
+		font-weight: bold;
+		font-size: 2em;
+		text-shadow: 4px 4px 1px rgba(63, 63, 63, 0.62);
+		margin: 0;
+		display: inline-block;
+		width: 100%;
+	  }
+	  
+	  body#follow_a_mapp article section#buttons ul li a:hover{
+	  	color: #000;
+	  	text-shadow: none;
+	  }
+	  
+	  body#follow_a_mapp article section#buttons ul li a span {
+	  width: 30px;
+	  font-size: 1.25em;
+	  float: right;
+	 margin: 25px 50px 0 0;
+  }
+  
+  /* =============================================================================
+    Mapp Viewer
+     ========================================================================== */
+       	body#mapp_viewer div#header-container {
+  
+  	height: 50px;
+  		background: #91b6db; /* Old browsers */
+  		background: -moz-linear-gradient(top,  #91b6db 0%, #34699f 100%); /* FF3.6+ */
+  		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91b6db), color-stop(100%,#34699f)); /* Chrome,Safari4+ */
+  		background: -webkit-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Chrome10+,Safari5.1+ */
+  		background: -o-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* Opera 11.10+ */
+  		background: -ms-linear-gradient(top,  #91b6db 0%,#34699f 100%); /* IE10+ */
+  		background: linear-gradient(top,  #91b6db 0%,#34699f 100%); /* W3C */
+  		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91b6db', endColorstr='#34699f',GradientType=0 ); /* IE6-9 */ 	
+  		  	}
+  
+     body#mapp_viewer h1#title {
+     	text-align: center;
+     	font-size: 1.5em;
+     	margin: 10px auto;
+  
+     }
+     
+     body#mapp_viewer h1#title i {
+     	font-size: 1.5em;
+     	vertical-align: middle;
+     	margin-right: 15px;
+     }
+  
+  
+  body#mapp_viewer article {
+  padding: 25px;
+  height: 710px;
+  text-align: center;
+  	background: #7a7a7a; /* Old browsers */
+  	background: -moz-radial-gradient(center, ellipse cover,  #7a7a7a 0%, #5e5e5e 40%, #000000 100%); /* FF3.6+ */
+  	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7a7a7a), color-stop(40%,#5e5e5e), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+  	background: -webkit-radial-gradient(center, ellipse cover,  #7a7a7a 0%,#5e5e5e 40%,#000000 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-radial-gradient(center, ellipse cover,  #7a7a7a 0%,#5e5e5e 40%,#000000 100%); /* Opera 12+ */
+  	background: -ms-radial-gradient(center, ellipse cover,  #7a7a7a 0%,#5e5e5e 40%,#000000 100%); /* IE10+ */
+  	background: radial-gradient(center, ellipse cover,  #7a7a7a 0%,#5e5e5e 40%,#000000 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a7a7a', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  	
+  }
+  
+      
+  body#mapp_viewer article h2 {
+color: #fff;
+  	height: 25px;
+  	padding: 5px 0;
+ margin: 5px 5px 100px;
+  	font-size: 2em;
+  	text-align: center;
+
+  }
+  
+#mapp-viewer-container {
+  position: relative;
+  margin: 15% auto;
+  width: 350px;
+  height: 350px;
+  perspective: 1000;
+}
+
+
+#mapp-viewer-container ul{
+    display:block;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#mapp-viewer-container li{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+
+#mapp-viewer-container li a{
+    display: block;
+    margin: 0;
+    border: none;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+}
+
+#mapp-viewer-container li a img{
+   width: inherit;
+   height: inherit;
+}
+
+
+
+  
+  

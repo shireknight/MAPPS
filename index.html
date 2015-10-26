@@ -1,0 +1,74 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+        
+        <title></title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+            
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/font-awesome.css">            
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css">
+                            
+        <script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+
+</head>
+<body id="home">
+	<div id="header-container">
+        <img src="img/design/home_logo.gif" alt="MAPPS (Museum Advance Planning Picture Stories)" />
+		<header class="wrapper clearfix">
+			
+			
+		</header>
+	</div>
+	<div id="main-container">
+        
+        <article>
+            
+            <nav>
+                <ul>
+                    <li><a href="make-mapp.html" id="make-mapp"><i class="fa fa-map-marker"></i><span>Make a <br />MAPP</span></a></li>
+                    <li><a href="follow-mapp.html" id="follow-mapp"><i class="fa fa-road"></i><span>Follow a <br />MAPP</span></a></li>
+                    <li><a href="#" id="about"><i class="fa fa-question-circle"></i><span>About <br />MAPPS</span></a></li>
+                    <li><a href="#" id="credits"><i class="fa fa-info-sign"></i><span>Credits</span></a></li>
+                </ul>
+            </nav>				
+            
+        </article>
+        
+        
+	</div> <!-- #main-container -->
+
+    <div id="what-is-a-mapp" summary="What is a MAPP?">
+        <p>A MAPP is a picture story that helps
+        to plan a visit to the Children's
+        Museum of New Hampshire. MAPPS
+        can be very helpful for children on the
+        autism spectrum and their families.<p>
+
+        <p>You can make your own MAPP
+        or follow one that has already been
+        made.</p>
+
+        <p>MAPPS allows you to pick and
+        choose what you would like to see.
+        With MAPPS, you can also share with
+        others by saving your visit to the
+        museum as a picture story</p>
+    </div>   
+    
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="js/libs/jquery-ui-1.8.17.custom.js"><\/script>')</script>
+	<script src="js/libs/jquery.flippy.js"></script>
+    <script type="text/javascript" src="js/MAPP.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#what-is-a-mapp').MappDialog();
+		});
+	</script>
+</body>
+</html>

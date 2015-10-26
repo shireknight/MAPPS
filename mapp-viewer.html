@@ -1,0 +1,53 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+
+	<title>MAPP Viewer</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width"/>
+
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css"/>
+
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+</head>
+<body id="mapp_viewer">
+	<div id="header-container">
+        <header class="wrapper clearfix">
+			<h1 id="title">
+				<span id="back"><a href="index.html" title="Back"><i class="fa fa-home"></i></a></span>
+				<span id="title-text"><i class="fa fa-map-marker"></i> Movement Play (<span id="num-stops"></span> stops)</span>
+				<span id="text-on-off"><a href="mapp-viewer.html" title="Save MAPP">Text Off</a></button></a>
+			</h1>
+		</header>
+	</div>
+	<div id="main-container">
+			
+			<article>
+
+					<div id="mapp-viewer-container">
+						<ul>
+						</ul>
+					</div>
+				
+			</article>
+			
+	</div> <!-- #main-container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.js"></script>
+    <script>window.jQuery.ui || document.write('<script src="js/libs/jquery-ui-1.8.17.custom.js"><\/script>')</script>
+    <!-- include Cycle2 -->
+	<script src="js/libs/jquery.json-2.4.min.js"></script>
+	<script src="js/libs/jquery.flippy.js"></script>
+    <script type="text/javascript" src="js/MAPP.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#mapp-viewer-container').MappViewer();
+		});
+	</script>
+</body>
+</html>
