@@ -1,2 +1,2 @@
 # MAPPS
-For a creating an itinerary for a children's museum.
+Mobile app. Creates an itinerary for a children's museum. HTML5, CSS, JavaScript.
